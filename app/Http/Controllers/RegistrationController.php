@@ -17,7 +17,7 @@ class RegistrationController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|email|unique:students,email',
-            'phone' => 'required|min:11|numeric',
+            'phone' => 'required|digits:11|numeric',
 
         ]);
 
