@@ -9,7 +9,7 @@
 ## Installation process
 
 
-- Clone the project from GitHub using this command:  git clone https://github.com/creativesaiful/Registration-System.git
+- Clone the project from GitHub using this command:  git clone https://github.com/creativesaiful/ol-skill-test.git
 - Make a database
 - configure database name in .env file
 - configure mail server in the .env file
